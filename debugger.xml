@@ -1,6 +1,16 @@
 <application>
   <component name="XDebuggerSettings">
     <data-views />
-    <general />
+    <general>
+      <unmute-on-stop>true</unmute-on-stop>
+    </general>
+    <debuggers>
+      <debugger id="python">
+        <configuration>
+          <option name="librariesFilterEnabled" value="true" />
+          <option name="watchReturnValues" value="true" />
+        </configuration>
+      </debugger>
+    </debuggers>
   </component>
 </application>
